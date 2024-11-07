@@ -1,0 +1,386 @@
+@media (min-width: 500px){
+@media (min-width:768px){
+@media (min-width:992px){
+
+.icons{
+    margin-left: 1395px;
+    margin-top: -40px;
+    word-spacing: 10px;  
+}
+header{
+border: 1px solid black;
+   background-color: black;
+   color: white;
+   height: 80px;
+}
+h2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+section{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    /* height: 700px; */
+}
+.first-img{
+   margin-left: 600px;
+   margin-top: -450px;
+}
+.first-matter{
+    margin-left: 300px;
+    font-size: 25px;
+    margin-top: 200px ;
+    
+}
+.btn1{
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+.heading1{
+    font-size: 200x ;
+}
+main{
+    background-color: black;
+    color: white;
+    /* display: flex; */
+    padding: 10px;
+}
+.main1{
+display: flex;
+justify-content: space-around;
+}
+.heading2{
+    margin-left: 550px;
+}
+.matter-2{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+.heading3{
+    margin-left: 550px;
+}
+.sub-margin{
+    margin-top: 80px;
+}
+.matter-2 a:hover{
+    /* color: red; */
+    background-color: red;
+}
+.change{
+    background-color: rgb(34, 32, 32);
+    margin: 0px;
+    height: 200px;
+}
+ .cards.cards{
+    border: 1px solid rgb(116, 114, 114);
+    border-radius:3px ;
+    margin: 30px;
+    /* padding: 1px; */
+    width: 255px;
+}
+.cards-1{
+    padding: 15px;
+}
+.All-cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 90px;
+}
+.star{
+    color: red;
+}
+.images{
+    margin-left: 27px;
+    margin-top: 20px;
+}
+.logo-names{
+    margin-left: -1px;
+}
+.buttons{
+    padding: 7px;
+    background-color: red;
+    color: white;
+    width: 180px;
+}
+.lasth1{
+    margin-top:180px ;
+}
+.logos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 130px;
+}
+.brands{
+    margin-top: -60px;
+    margin-left: 65px;
+}
+.brands-matter{
+    margin-left: 65px;
+    margin-top: -10px;
+}
+.brands-adv{
+    margin-left: 550px;  
+}
+.footer-details{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-list li:hover{
+    color: red;
+}
+footer ul li{
+    list-style: none;
+}
+.footer-button1{
+    padding: 7px;
+    width: 250px;
+}
+
+.footer-button{
+    background-color: red;
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+}
+.last-logo{
+    margin-left: 1250px;
+    margin-top: -35px;
+    word-spacing: 20px;
+}
+.end-footer{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin: 0px;
+
+}
+.horizantal-line{
+    margin:-5px;
+}
+.jbl-logos{
+    margin: 80px;
+    /* border: 1px solid yellow; */
+}
+.img-4{
+    border: 1px solid white;
+    padding: 10px;
+}
+.img-4:hover{
+    border: 1px solid gray;
+}
+.product-big{
+    margin-left: 300px;
+    margin-top: -580px;
+    /* position: absolute;
+    top: 700px; */
+}
+.jbl-content{
+    margin-left: 900px ;
+    margin-top: -520px;
+}
+.right-button{
+    margin-left: 350px;
+    
+    width: 75px;
+    background-color: green;
+    color: white;
+    position: absolute;
+    top: 380px;
+}
+.green-color{
+    color: green;
+}
+.rating{
+    margin-left: 78px;
+    margin-top: -33px;
+}
+.add-btn{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    width: 200px;
+}
+.emi-details{
+    display: flex;
+}
+.em1{
+    border: 1px solid white;
+    padding: 15px;
+    margin: 15px;
+}
+.em1:hover{
+    border: 1px solid gray;
+}
+.sub-headings{
+    display: flex;
+    margin-left: 250px;
+    justify-content: space-evenly;
+}
+.sub-headings h2{
+    /* list-style: none; */
+    /* word-spacing: 50px; */
+
+}
+.sub-headings h2:hover{
+    color: red;
+}
+.buds-name{
+    display: flex;
+    margin-left: 50px;
+    font-size: 25px;
+    line-height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.buds-name ul li{
+    list-style: none;
+}
+.buds-name ul li:hover{
+    color: red;
+}
+.products-cards{
+    display: flex;
+    justify-content: space-around;
+}
+.product-heading{
+    margin-left: 550px;
+}
+.cart-matter{
+    margin-left: 500px;
+}
+.cart-matter2{
+    margin-left: 230px;
+    /* margin-top: -100px; */
+    position: absolute;
+    top: 130px;
+
+}
+.main-cart{
+    padding: 80px;
+}
+.cart-inside{
+    /* border: 1px solid red;; */
+    width: 640px;
+    padding: 10px;
+    background-color: rgb(50, 49, 49);
+}
+.cart-matter3{
+    margin-left: 230px;
+    position: absolute;
+    top: 310px;
+}
+#icom-main{
+    position: absolute;
+    left: 300px;
+     top: 18px;
+    
+}
+#card-main2{
+    position: absolute;
+    left: 300px;
+     top: 20px;
+}
+.main-det{
+    /* border: 1px solid red; */
+    width: 280px;
+    padding: 25px;
+    margin-left: 850px;
+    margin-top: -410px;
+}
+.rs{
+    margin-left: 200px;
+    margin-top: -35px;
+}
+.rs1{
+    margin-left: 200px;
+    margin-top: -35px;
+    color: green;
+}
+.free{
+    margin-left: 200px;
+    margin-top: -35px;
+    color: green;
+}
+.rate{
+    margin-left: 200px;
+    margin-top: -45px;
+}
+.cart-h2{
+    margin-left: -3px;
+}
+.cart-btn{
+    background-color: red;
+    padding: 7px;
+    width: 285px;
+}
+.btn-1{
+    color: red;
+}
+.reg{
+
+    margin-left: 550px;
+    margin-top: 120px;
+    width: 300px;
+    padding: 70px;
+    background-color: black;
+    color: white;
+}
+.but-fac{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    width: 85px;
+}
+#but-fac{
+    background-color: blue;
+}
+/* .reg{
+    background-image: url(file:///C:/Users/91756/OneDrive/Desktop/Munidhanunjaya(project)/project-trending/cart.html);
+} */
+/* .but-google{
+background-color: red;
+color: white;
+} */
+#but-gogle{
+    background-color: red;
+    color: white;
+}
+.but-Sing{
+    background-color: red;
+    padding: 8px;
+    width: 270px;
+}
+#but-Tiw{
+    background-color: rgb(0, 119, 255);
+    color: white;
+    /* padding: 8px;
+    width: 270px; */
+}
+.re-body{
+    background-color: gray;
+    background-image: url(Screenshot_7-11-2024_21425_.jpeg);
+}
+.x-but{
+    margin-left: 347px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 120px;
+}
+/* .search-1:hover{
+    color:blue
+} */
+/* .search-2:hover{
+    top: 13ppx;
+    visibility: hidden;
+    opacity: 0.3;
+} */
+.input-f{
+    width: 250px;
+    padding: 7px;
+}
+}
+}
+}

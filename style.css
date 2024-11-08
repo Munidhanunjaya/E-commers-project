@@ -2,7 +2,88 @@
 @media (min-width:768px){
 @media (min-width:992px){
 
-.icons{
+   body{
+    /* margin: 0;
+    padding: 5px;
+    width: 1550px; */
+    margin-top: -20px;
+    width: 1520px;
+    background-color: black;
+
+    
+    
+   }
+
+    header{
+        position: fixed;
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        flex: wrap;
+        position: sticky;
+        background-color: black;
+        
+    }
+    .logo  h1{
+        color: darkgray ; 
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        color: darkgray;
+    }
+    a{
+        padding: 20px;
+        color: darkgray;
+    }
+    .over{
+        display:grid;
+    }
+    
+    span{
+        border: 1px solid darkgray;
+        text-align: center;
+        visibility: hidden;
+    }
+    .over:hover span{
+        visibility: visible;
+    }
+    .over1{
+        display: grid;
+    }
+    .overcontent{
+        border: 1px solid darkgray;
+        padding: 20px;
+        visibility: hidden;
+        position: absolute;
+        margin:10px;
+        h3{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        button{
+            margin-bottom: 10px;
+            margin-left: -20px;
+            background-color: black;
+            color: white;
+            border-color: darkgray;
+            width: 100px;
+            height: 30px;
+    
+        }
+    }
+    .over1:hover .overcontent{
+        visibility: visible;
+        margin-left: -270px;
+        margin-top:40px;
+    }
+    }
+/* .icons{
     margin-left: 1395px;
     margin-top: -40px;
     word-spacing: 10px;  
@@ -12,16 +93,18 @@ border: 1px solid black;
    background-color: black;
    color: white;
    height: 80px;
-}
-h2{
+} */
+/* h2{
     margin-top: 20px;
     margin-left: 20px;
-}
+} */
 section{
     background-color: black;
     color: white;
-    padding: 50px;
+    padding: 120px;
     /* height: 700px; */
+    
+
 }
 .first-img{
    margin-left: 600px;
@@ -75,19 +158,26 @@ justify-content: space-around;
     height: 200px;
 }
  .cards.cards{
-    border: 1px solid rgb(116, 114, 114);
+    border: 1px solid rgb(222, 215, 215);
     border-radius:3px ;
     margin: 30px;
     /* padding: 1px; */
-    width: 255px;
+    width: 235px;
 }
+.cards.cards:hover{
+    border:1px solid rgb(59, 59, 60);
+} 
+
+/* .cards:hover{
+     border: 1px solid gray;
+} */
 .cards-1{
     padding: 15px;
 }
 .All-cards{
     display: flex;
     flex-wrap: wrap;
-    padding: 90px;
+    padding: 150px;
 }
 .star{
     color: red;
@@ -106,7 +196,8 @@ justify-content: space-around;
     width: 180px;
 }
 .lasth1{
-    margin-top:180px ;
+    margin-top:230px ;
+    margin-left: 65px;
 }
 .logos{
     display: flex;
@@ -121,6 +212,16 @@ justify-content: space-around;
     margin-left: 65px;
     margin-top: -10px;
 }
+.last-heading{
+    margin-left: 38px;
+
+}
+.last-heading-1{
+    margin-left: 38px;
+}
+.last-heading-2{
+    margin-left: 38px;
+}
 .brands-adv{
     margin-left: 550px;  
 }
@@ -128,8 +229,12 @@ justify-content: space-around;
     display: flex;
     justify-content: space-around;
 }
+.footer-list{
+    line-height-step: 10px;
+}
 .footer-list li:hover{
     color: red;
+    
 }
 footer ul li{
     list-style: none;
@@ -254,7 +359,7 @@ footer ul li{
     margin-left: 230px;
     /* margin-top: -100px; */
     position: absolute;
-    top: 130px;
+    top: 190px;
 
 }
 .main-cart{
@@ -265,11 +370,19 @@ footer ul li{
     width: 640px;
     padding: 10px;
     background-color: rgb(50, 49, 49);
+    overflow: scroll;
 }
+/* .img-color{
+    color: red;
+} */
+ #Deals{
+    background-color:red;
+    color: red;
+ }
 .cart-matter3{
     margin-left: 230px;
     position: absolute;
-    top: 310px;
+    top: 350px;
 }
 #icom-main{
     position: absolute;
